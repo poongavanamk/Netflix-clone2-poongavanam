@@ -1,0 +1,1383 @@
+
+/* Header file */
+
+.tophead {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.header img {
+  width: 8%;
+  object-fit: contain;
+}
+
+.header p {
+  color: white;
+  margin-right: 1rem;
+  margin-left: 55%;
+  font-size: small;
+}
+
+.joinnow, .signin {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.joinnow{
+  background-color: rgb(194, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.signin {
+ background-color: black;
+ color: white;
+ border-color: white; 
+}
+
+
+/* 2 Movies List */
+.overallmovielist{
+  background-color: rgb(29, 29, 29);
+  align-items: center;
+  justify-content: center;
+ 
+}
+.movieorder{
+  margin-left: 2.5%;
+  color: white;
+}
+
+.movieorder h1{
+  font-size: 50px;
+  font-weight:800;
+  margin: 0;
+  padding-top: 8%;
+ 
+}
+.movieorder p{
+  font-size: 20px;
+  width: 40%;
+  margin:0; 
+  padding-bottom: 2%;
+  padding-top:1%;
+}
+
+/*3 Show list */
+.imagefun span {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.allhead {
+  background-color: rgb(29, 29, 29);
+  align-items: center;
+  justify-content: center;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+}
+
+.title{
+  color: white;
+  padding-top: 3%;
+  font-size: 20px;
+  margin-top: -2%;
+}
+.tooltip {/* Section2 */
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  color: #fff;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin-left: 102%;
+  margin-top: -19%;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+/*gpt*/
+
+.slider-container {
+  display: flex;
+  background-color: #1d1d1d;
+  margin-right: -2%;
+}
+
+.scroll-btn {
+  background-color: rgb(29, 29, 29);
+  color: rgb(200, 0, 0);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+ margin-left: -1.5%;
+  
+}
+
+.slider-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+ 
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.imagefun span a{
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-joining {
+ width: 45%;
+  padding: 5%;
+  text-align: center;
+  margin-left: 20%;
+  font-size: 20px;
+  color:white;
+  
+}
+.footer-joining button{
+ padding: 2%;
+ width: 28%;
+ border-radius: 5PX;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ border:none ;
+ 
+}
+.fb-a{background-color: red;
+padding: 2%;
+}
+
+
+
+.footer-datas-a{
+  align-items: self-start;
+  margin-right: 10%;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+
+
+.main-footer {
+  font-family: Arial, sans-serif;
+  color: gray; /* sets base text color */
+}
+
+.main-footer a {
+  color: gray; /* all link text gray */
+  text-decoration: none; /* removes underline */
+ 
+}
+
+.mf-aa{ 
+    font-size: 18px;
+    margin-top: 30px;
+   
+}
+.mf-ab{ font-size: 18px;}
+.main-footer a:hover {
+  text-decoration: underline; /* underline on hover for accessibility */
+  color: lightgray;
+}
+
+.footer-datas {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+/* ShadowPage */
+
+.Shadowpage img{
+  width:100%;
+  filter: blur(5px);
+  box-shadow: 0 88px 50px rgba(0, 0, 0, 0.5);
+ 
+  
+}
+
+
+
+/* Login page */
+
+.form input[type="text"],
+.form input[type="number"],
+form input[type="password"],
+.form select,
+.clickme
+ {
+  margin: 5%;
+}
+
+
+  
+     /* Form header */
+    .head h1 {
+      padding-bottom: 3%;
+      margin-left: 10%;
+      padding-top: 5%;
+    }
+  
+
+     /* Text validation messages */
+     .error {
+      color: red;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+  
+    .valid {
+      color: green;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+  
+     /* Body background */
+
+     .overallform{
+      background-image: url(Mainfolder/signup\ bck\ img.jpg);
+     
+      height: 100vh;
+      padding-top:3% ;
+      
+     
+     }
+    .form {
+      background-color: #000000; 
+      color: rgb(255, 255, 255);
+      font-family: Arial, sans-serif;
+      margin-left: 35%;
+      padding-left: 2%;
+     width: 25%;
+      box-shadow: 0px 0px 10px rgb(255, 255, 255);
+      border-radius: 10px;
+      padding-right: 5%;
+      padding-bottom: 2%;
+    }
+
+    .or-divider{
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    
+    /* Input and labels */
+    .form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  
+    .form input[type="text"],
+    .form input[type="password"],
+    .form input[type="number"],
+    .form select {
+      width: 80%;
+      padding: 3%;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-left: 10%;
+    }
+  
+    
+    .clickme{
+      padding: 3%;
+      margin: 20px 0 10px 0;
+      width: 87%;
+      background-color: rgb(255, 0, 0);
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+     margin-left: 10%;
+    } 
+    .clickme:hover{
+      background-color: darkred;  
+    }
+
+    .para {
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    .forgot-password{
+     text-align: center;
+     
+     
+    }
+
+    .forgot-password a {
+      color: white;
+    }
+
+    .remember-me,h6,
+    .googlepara,
+    .googlea {
+      margin-left: 10%;
+    }
+
+    .newtonetflix{
+      font-size: 15px;
+    }
+
+  
+
+/* Navigate detail page*/
+
+.details-container {
+  background-color: #000;
+  color: white;
+  padding: 30px 50px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.details-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.main-image img {
+  height: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.section-title {
+  font-size: 24px;
+  margin: 30px 0 10px 0;
+}
+
+.related-shows {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+  scrollbar-width: none; /* Firefox */
+}
+
+.related-shows::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.related-card {
+  flex: 0 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+.related-card img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.related-card img:hover {
+  transform: scale(1.05);
+}
+
+.related-card p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.back-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*signupcontant*/
+.topheadsignup{
+  background: linear-gradient(rgb(44, 29, 29),black);
+  padding-left: 5%;
+  
+}
+.vediosignup{
+  
+  
+  margin-right: 5%;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+.newback{
+  background-image: url(Mainfolder/Picsart_25-05-07_19-43-21-754.jpg);
+margin-left: -5%;
+
+}
+
+.contantsss{
+
+  color:white;
+  width: 42%;
+  text-align: center;
+  margin-left: 27%;
+
+}
+
+.Unlimited{
+ 
+  font-size: 70px;
+  margin-bottom: 0;
+  
+}
+
+
+.Starts{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.Ready{
+  font-size: 18px;
+}
+
+.emilph{
+  padding: 3%;
+  width: 65%;
+  border-radius: 30px;
+  margin-bottom: 1%;
+  background-color: rgb(69, 66, 66);
+  color: white;
+  
+}
+
+.singleimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.emilph::placeholder{
+  color: white;
+}
+.getstarted{
+  padding: 3%;
+  width: 50%;
+  border-radius: 30px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  margin-bottom: 5%;
+
+}
+
+
+/*treading now image*/
+/* General Styles */
+
+
+
+
+
+
+
+
+
+
+
+.getstarted:hover {
+  background-color: #e50914;
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}
+
+/* Trending Now Section */
+
+/* Image Order (Slider-like layout) */
+.imageoerder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+}
+
+.singleimg {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.singleimg:hover {
+  transform: scale(1.1);
+}
+
+
+.number-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Selected Movie Section */
+.selected-movie-section {
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: black;
+}
+
+.selected-movie-section img {
+  max-width: 100%;
+  border-radius: 10px;
+
+}
+
+.movie-details {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.movie-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+.selected-movie-preview{
+  color: white;
+}
+
+
+
+.number-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Selected Movie Section */
+.selected-movie-section {
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.selected-movie-section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.movie-details {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.movie-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-details p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.headertreadnding{
+  color: white;
+}
+.treadingnow {
+ 
+  padding-right: 5%;
+}
+
+.scroll-buttons button{
+  background-color: #1d1d1d;
+  border: none;
+  color: white;
+}
+
+
+.language{
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border-color: white;
+  border-style:solid  ;
+  margin-left: 65%;
+  width: 8%;
+  padding: 1%;
+  
+}
+
+.signinn{
+  background-color: white;
+  border-radius: 25px;
+  border-color: white;
+  border-style:solid  ;
+  padding: 1%;
+  width: 8%;
+  margin-left: 1%;
+}
+
+
+.More-reasons-to-join{
+  width: 90%;
+  color: white;
+
+}
+
+
+
+.More-join{
+  display: flex;
+  gap: 18px;
+  padding: 1%;
+  margin: 1%;
+
+
+}
+
+.Enjoy-on-your-TV{
+  background-color: rgb(47, 45, 45);
+  border-radius: 15px;
+  width: 35%;
+  padding: 1%;
+}
+
+.Enjoy-on-your-TV h3{
+  color: white;
+}
+.Enjoy-on-your-TV-img3{
+  margin-top: 8%;
+}
+
+
+
+.Enjoy-on-your-TV img{
+  width: 15%;
+  height: 15%;
+  margin-left: 80%;
+  border-radius: 10px;
+}
+
+.Enjoy-on-your-TV p{
+  color: rgb(195, 195, 195)
+}
+
+
+
+
+
+
+.FAQ {
+  width: 100%;
+  color: white; 
+  padding: 1%;
+}
+
+.FAQ-Button {
+  width: 90%;
+  padding: 30px;
+  font-size: 18px;
+  background-color: #303030;
+  color: white;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.FAQ-Answer {
+  background-color: #303030;
+  padding: 15px 20px;
+  animation: fadeIn 0.3s ease-in-out;
+  color: white;
+  width: 87%;
+  border-radius: 15px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.FAQ-Button:hover{
+  background-color: rgb(78, 78, 78);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+.footerbutton{
+  margin-left: 25%;
+}
+.footerbutton input{
+  width: 30%;
+  padding: 2%;
+  margin-right: 1%;
+  
+}
+
+.footerbutton button{
+  width: 30%;
+  padding: 1%;
+  font-size: 33px;
+}
+
+.footerbutton p{color: white;
+  margin-left: 10%;
+}
+
+
+/*Password page*/
+.hea{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+  background-color: black;
+}
+
+.hea img {
+  width: 8%;
+  object-fit: contain;
+}
+
+.hea p {
+  color: white;
+  margin-right: 1rem;
+  margin-left: 55%;
+  font-size: small;
+}
+
+.easynetflix{
+  margin-left: 35%;
+  margin-top: 2%;
+ 
+}
+
+.easynetflix h3{
+  font-size: 30px;
+  margin: 0;
+}
+
+.easynetflix-email{
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+.easynetflix-email-show{
+ 
+  font-weight: 600;
+}
+
+.easynetflix input{
+  width: 35%;
+  padding: 2%;
+  border-style: solid;
+  border-color: red;
+  margin-bottom: 1.5%;
+}
+
+
+.easynetflixatag {
+  
+  margin-left: 35%;
+  padding-top: 3%;
+}
+.nextbutton button{
+  background-color: red;
+  width: 26%;
+  padding: 1.5%;
+  font-size: 20px;
+  color: white;
+  border-color:red;
+  border-radius: 5px;
+  margin-top: 1.5%;
+  margin-left: 35%;
+}
+
+
+.nextbutton button:hover{
+  background-color: darkred;
+}
+
+.plans{
+  margin-top: 7%;
+ margin-left: 40%;
+}
+
+.planimg img{
+  width: 5%;
+  height: 5%;
+  margin-left: 14%;
+}
+.plancontant p{
+  margin-left: 12%;
+}
+
+.nocommitement img{
+  width: 3%;
+  height: 3%;
+}
+
+.nocommitement {
+  width: 100%;
+  margin-top: 2%;
+  
+}
+
+.plancontant button{
+  background-color: red;
+  width: 34%;
+  padding: 2%;
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+  border-radius: 5px;
+  border:none ;
+  font-weight: bold;
+}
+
+
+
+
+/*Pricedetails page*/
+
+
+.pricedetails-container {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.plans-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+  background-color: #fff;
+}
+
+.plan-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.plan-card p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+ 
+ 
+}
+
+.plan-card span {
+  font-weight: normal;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.premium h2 {
+  background: linear-gradient(to right, blue, red);
+}
+
+.standard h2 {
+  background: linear-gradient(to right, blue, purple);
+}
+
+.basic h2 {
+  background: linear-gradient(to right, #4B0082, #8A2BE2);
+}
+
+.mobile h2 {
+  background: linear-gradient(to right, #0066ff, #0099ff);
+}
+
+.most-popular {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  background-color: #8000ff;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.hdpara p{
+  margin-left: 10%;
+  width: 80%;
+  font-size: 15px;
+}
+
+.hdpara p span{
+  color: rgb(0, 96, 134);
+}
+.nextbutton{
+  margin-bottom: 10%;
+}
+
+/*Payment page*/
+.payment-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.payment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.signout-btn {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payment-box {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.lock-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.step {
+  font-size: 14px;
+  color: #555;
+}
+
+.payment-title {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #444;
+}
+
+.secure-line {
+  margin: 20px 0 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.encryption-note {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.card-logos img,
+.upi-logos img {
+  width: 40px;
+  margin-left: 5px;
+}
+
+.arrow {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+/*Payment Footer*/
+.payment-footer {
+  background-color: #f3f3f3;
+  padding: 30px;
+  text-align: left;
+  font-size: 14px;
+  color: #737373;
+}
+
+.footer-question {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links li a {
+  color: #737373;
+  text-decoration: none;
+}
+
+.footer-language select {
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+
+/*Payment Process*/
+.process-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.step-indicator {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-icons img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.input-icon {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  font-size: 18px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.full-input {
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.plan-summary {
+  background-color: #f5f5f5;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.change-link {
+  font-size: 14px;
+  color: #0071eb;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.note {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.terms {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.terms a {
+  color: #0071eb;
+  text-decoration: none;
+}
+
+.checkbox {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.start-btn {
+  background-color: #e50914;
+  color: white;
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.start-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.captcha-note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 20px;
+}
+/*Signup page 2*/
+.movewrk{
+  margin-left: 440%;
+}
+
+.newaraive{
+  margin-left:66%;
+ 
+}
+
+.newaraive button{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+ 
+}
+
+/*Autopay*/
+/* Autopay.css */
+.autopay-container {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.autopay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.header{
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 100px;
+}
+
+.signout-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.autopay-box {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.step-info {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.autopay-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.autopay-desc {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.upi-select,
+.upi-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.upi-help {
+  font-size: 14px;
+  color: #0071eb;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #e50914;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
