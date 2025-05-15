@@ -1,0 +1,52 @@
+/* Header file */
+
+.tophead {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.header img {
+  width: 8%;
+  object-fit: contain;
+}
+
+.header p {
+  color: white;
+  margin-right: 1rem;
+  margin-left: 55%;
+  font-size: small;
+}
+
+.joinnow, .signin {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.joinnow{
+  background-color: rgb(194, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.signin {
+ background-color: black;
+ color: white;
+ border-color: white; 
+}
