@@ -1,15 +1,15 @@
-# 👋 Hi, I'm [Your Name]
+👋 Hi, I'm [poongavanam k]
 
-## 🚀 About Me
+🚀 About Me
 I'm a passionate Frontend Developer with hands-on experience in HTML, CSS, JavaScript, and ReactJS. I love building clean, responsive UIs and solving problems through code.
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 - 💻 HTML | CSS | JavaScript
 - ⚛️ ReactJS | Redux
 - 🌐 Git | GitHub | VS Code
 
-## 📂 Projects
-### [NETFLIX](https://github.com/poongavanamk/Netflix-clone2-poongavanam/tree/main)
+📂 Projects
+ [NETFLIX](https://github.com/poongavanamk/Netflix-clone2-poongavanam/tree/main)
 Short description of what the project does.  
 **Tech Used:** React js, css. 
 
